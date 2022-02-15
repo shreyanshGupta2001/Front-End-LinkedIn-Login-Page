@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedInLogin</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+    *
+    {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    form
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        
+    }
+    .signin
+    {
+        padding: 30px;
+        height: 500px;
+        width: 370px;
+        box-shadow:  0 0 20px rgba(0, 0, 0, .10);
+        border-radius: 10px;
+
+    }
+
+    input
+    {
+        padding: 4.8%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    button
+    {
+        /*padding-left: 90px;
+        padding-right: 90px;*/
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 100%;
+        border-radius: 50px;
+        font-size: 15px;
+        border-color: white;
+
+        transition: all .2s linear;
+        
+    }
+
+    .button1
+    {
+        
+        background-color: #2867B2;;
+        color: white;
+    }
+
+    .button2
+    {
+        border-color: black;
+        background-color: white;;
+        color: black;
+    }
+
+    .button1:hover
+    {
+        background-color: rgb(49, 49, 141);
+    }
+
+    .button2:hover
+    {
+        background-color: rgb(231, 225, 225);
+    }
+
+    .content
+    {
+        color: #2867B2;;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    footer
+    {
+        font-size: 70%;
+    }
+
+    img
+    {
+        margin-left: 50px;
+        padding: 0;
+    }
+
+    #apple
+    {
+        margin: 0;
+    }
+
+
+
+</style>
+<body>
+<img src="Linkedin-Logo.png" height="8%" width="8%"/>
+<form>
+    <div class="signin Container">
+        <h1>Sign in</h1>
+        <div class="below">Stay updated on your professional world
+            <div class="content">
+                <br>
+                <input type"text" placeholder="Email or Phone"/>
+                <br><br>
+                <input type="password" placeholder="Password"/>
+                <br><br><b><a href="https://www.linkedin.com/checkpoint/rp/request-password-reset" target="_blank">Forgot password?</a></b>
+
+                <br><br>
+                <center><button type="submit" class="button1" id="Si">Sign in</button></center>
+
+                <br>
+                <hr>
+                <br>
+                <center><button type="submit" class="button2" id="Ap"><img src="apple-logo-transparent.png" height="7%" width="5%" id="apple"/> Sign in with Apple</button></center>
+
+                
+            </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+<br>
+<center>New to LinkedIn? <a href="https://www.linkedin.com/signup/cold-join" target="_blank">Join now</a> </center>
+<br><br>
+<footer>
+    <center>LinkedIn © 2022 &nbsp&nbsp&nbsp User Agreement &nbsp&nbsp&nbsp Privacy Policy &nbsp&nbsp&nbsp Community Guidelines &nbsp&nbsp&nbsp Cookie Policy &nbsp&nbsp&nbsp Copyright Policy &nbsp&nbsp&nbsp Send Feedback &nbsp&nbsp&nbsp Language</center>
+</footer>
+    
+</body>
+</html>
