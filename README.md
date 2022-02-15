@@ -1,7 +1,7 @@
 # Front-End-LinkedIn-Login-Page
 
 This is a practice, I did when I started learning HTML, CSS. In order to get familiar a bit more with the various HTML tags and mainly how the CSS works, I decided to create my own LinkedIn Login Page.
-I tried to recreate the LinkedIn login Page, and the result is this HTML file. Here I used the internal CSS sheet ie I wrote all the CSS inside the <style> </style> tags itself.
+I tried to recreate the LinkedIn login Page, and the result is this HTML file. Here I used the inline CSS sheet ie I wrote all the CSS inside the <style> </style> tags itself.
 
 Links of the various sources I used:
 
