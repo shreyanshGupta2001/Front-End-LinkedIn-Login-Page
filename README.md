@@ -11,3 +11,6 @@ https://fonts.google.com/ - For fonts
 
 https://www.google.co.in/imghp?hl=en-GB&tab=ri&authuser=0&ogbl I downloaded all the images I used in this file from Google Images only, I used only the free available Images on Google Image
 
+# Screenshot
+
+![](Screenshot%20of%20LinkedIn%20Login%20Page%20created%20by%20me.png)
